@@ -26,3 +26,22 @@ body {
 	font-style: italic;
 	font-size: 1.5rem;
 }
+
+@media screen and (max-width: 480px) {
+	.wrapper {
+		width: 80%;
+	}
+	.quote {
+		font-size: 1.4rem;
+		line-height: 1.2;
+  }
+  .author {
+	  font-size: .9rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+	.quote {
+		margin-top: 25vh;
+	}
+}

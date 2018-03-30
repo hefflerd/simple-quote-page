@@ -7,6 +7,16 @@ body {
 	width: 100%;
 }
 
+.languages {
+	text-align: center;
+	padding: 1rem;
+}
+
+.flag {
+	display: inline-block;
+	padding: 1rem;
+}
+
 .wrapper {
 	width: 90%;
 	margin: auto auto;
@@ -36,12 +46,12 @@ body {
 		line-height: 1.2;
   }
   .author {
-	  font-size: .9rem;
+	  font-size: 1rem;
   }
 }
 
 @media screen and (min-width: 1920px) {
 	.quote {
-		margin-top: 25vh;
+		margin-top: 20vh;
 	}
 }
